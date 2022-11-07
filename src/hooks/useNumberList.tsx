@@ -1,6 +1,13 @@
+import { useState } from "react";
+
 const useNumberList = (initialArray: number[]) => {
-  // TODO
-  // refer readme.md for what to return
+  const [arr,setarr]=useState (initialArray)
+
+  function Printarr(){
+    console.log(arr)
+  }
+  return {Printarr}
+
 };
 
 export default useNumberList;

@@ -1,9 +1,13 @@
 import React from "react";
+import useNumberList from "../hooks/useNumberList";
 
 type List1Props = {
   // TODO
 };
 const List1 = (props: List1Props) => {
+
+  // const {Printarr}=useNumberList()
+
   return (
     <div data-testid="list1">
       <h3 data-testid="list1-label">{/* Label */}</h3>
